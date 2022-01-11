@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #32CD32;
+
+}
+body{
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+    justify-content: center;
+    background-color: black;
+}
+
+.flexbox{
+    display:flex;
+    height: 100%;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: black;
+}
+
+.main-container{
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    box-shadow: 0 0 10px #32CD32, 0 0 40px #32CD32, 0 0 80px #32CD32;
+    border-radius: 15%;
+
+}
+
+#clock-title{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 0 0 10px #32CD32, 0 0 40px #32CD32, 0 0 80px #32CD32;
+}
+.label{
+    font-size: 28px;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+#break-box{
+    min-height: 100px;
+    width: 42%;
+    display: inline-block;
+    float: right;
+}
+#session-box{
+    min-height: 100px;
+    width: 42%;
+    display: inline-block;
+
+}
+#timer{
+    min-height: 100px;
+    width: 100%;
+    display: block;
+    align-self: stretch;
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    text-shadow: 0 0 10px #32CD32, 0 0 40px #32CD32, 0 0 80px #32CD32;
+}
+
+.number{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: inline-flex;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: xxx-large;
+
+}
+
+button:hover{
+    box-shadow: 0 0 10px #32CD32, 0 0 40px #32CD32, 0 0 80px #32CD32;
+
+}
