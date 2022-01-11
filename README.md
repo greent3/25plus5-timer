@@ -2,7 +2,7 @@
 
 A timer with customizable parameters for "work time" and "break time". Once break time reaches 00:00, clock will switch to work time (session).
 
-This is Version 2. See other branches for versions 1 and 3.
+This is Version 3. See other branches for versions 1 and 2.
 
 Version 1 - single page stateful react app
 
